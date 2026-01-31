@@ -1,0 +1,28 @@
+{
+  "namespace": "com.dinuka.quarkus.kafka.event",
+  "type": "record",
+  "name": "DriverTracingEvent",
+  "fields": [
+    {
+      "name": "driverId",
+      "type": "string"
+    },
+    {
+      "name": "eventTimestamp",
+      "type": "long",
+      "logicalType": "timestamp-millis"
+    },
+    {
+      "name": "latitude",
+      "type": "double"
+    },
+    {
+      "name": "longitude",
+      "type": "double"
+    },
+    {
+      "name": "eventType",
+      "type": "string"
+    }
+  ]
+}
